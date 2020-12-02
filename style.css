@@ -18,3 +18,47 @@ canvas {
   height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+      width: 100%;
+      height:60%;
+  }
+
+}
+
+.up-arrow {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  
+}
+.right-arrow {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 23%;
+  top: 40%;
+}
+.down-arrow {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  
+  top: 90%;
+}
+.left-arrow {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: -30%;
+  top: 40%;
+}
+.button-wrapper {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  top: 84%;
+  left: 50%;
+}
+  
